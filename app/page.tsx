@@ -12,7 +12,7 @@ import Hireme from "./components/Hireme";
 export default function Home() {
   return (
     <>
-     <Navbar />
+    
      <main className="flex items-center text-dark w-full min-h-screen">
      <Layout className="pt-0" >
       <div className="flex items-center justify-between w-full">
@@ -41,7 +41,7 @@ Explore my latest projects and articles, showcasing my expertise in React.js and
       <Image src={lightBulb} alt="MO" className="w-full h-auto" />
      </div>
     </main>
-    <Footer />
+ 
     </>
     
   )

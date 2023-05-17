@@ -1,6 +1,8 @@
 import Head from 'next/head'
 import './globals.css'
 import { Montserrat } from 'next/font/google'
+import Footer from './components/Footer'
+import Navbar from './components/Navbar'
 
 
 
@@ -25,7 +27,11 @@ export default function RootLayout({
 <link rel='icon' href='/favicon.ico' />
     </Head>
     <html lang="en">
-      <body className={`${montserrat.variable} font-mont bg-light w-full min-h-screen`}>{children}</body>
+      <body className={`${montserrat.variable} font-mont bg-light w-full min-h-screen`}>
+      <Navbar />
+        {children}
+        <Footer />
+        </body>
     </html>
     
     </>
