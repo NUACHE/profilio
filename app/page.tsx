@@ -1,5 +1,4 @@
 import Image from "next/image";
-import Layout from "./components/Layout";
 import Navbar from "./components/Navbar";
 import profilePic from "../public/images/profile/developer-pic-1.png"
 import lightBulb from "../public/images/svgs/miscellaneous_icons_1.svg"
@@ -8,13 +7,14 @@ import Link from "next/link";
 import { LinkArrow } from "./components/Icons";
 import Footer from "./components/Footer";
 import Hireme from "./components/Hireme";
+import Lout from "./components/Lout";
 
 export default function Home() {
   return (
     <>
     
      <main className="flex items-center text-dark w-full min-h-screen">
-     <Layout className="pt-0" >
+     <Lout className="pt-0" >
       <div className="flex items-center justify-between w-full">
       <div className="w-1/2">
         <Image src={profilePic } alt="MO" className="w-full h-auto" />
@@ -35,7 +35,7 @@ Explore my latest projects and articles, showcasing my expertise in React.js and
 </div>
       </div>
       </div>
-     </Layout>
+     </Lout>
      <Hireme />
      <div className="absolute right-8 bottom-8 inline-block w-24">
       <Image src={lightBulb} alt="MO" className="w-full h-auto" />

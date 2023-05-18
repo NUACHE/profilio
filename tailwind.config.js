@@ -30,6 +30,9 @@ module.exports = {
       },
       animation: {
         'spin-slow': 'spin 8s linear infinite'
+      },
+      backgroundImage:{
+        circularLight: 'repeating-radial-gradient(rgba(0,0,0,0.4) 2px, transparent 5px, transparent 100px);'
       }
     },
   },
