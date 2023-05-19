@@ -27,7 +27,7 @@ export default function RootLayout({
 <link rel='icon' href='/favicon.ico' />
     </Head>
     <html lang="en">
-      <body className={`${montserrat.variable} font-mont bg-light w-full min-h-screen`}>
+      <body className={`${montserrat.variable} font-mont bg-light dark:bg-dark w-full min-h-screen`}>
       <Navbar />
         {children}
         <Footer />
