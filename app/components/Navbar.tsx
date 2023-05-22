@@ -39,6 +39,13 @@ const Navbar = () => {
         dark:text-light  dark:bg-dark
         '
         >
+
+            <button className='flex flex-col justify-center items-center'>
+                <span className='bg-darkk dark:bg-light block h-0.5 w-6 rounded-sm -translate-y-0.5' ></span>
+                <span className='bg-darkk dark:bg-light block h-0.5 w-6 rounded-sm my-0.5' ></span>
+                <span className='bg-darkk dark:bg-light block h-0.5 w-6 rounded-sm ' ></span>
+                
+            </button>
             <nav>
                 <CustomLink href="/" title='Home' className='mx-4'/>
                 <CustomLink href="/about" title='About' className='mx-4' />
@@ -81,7 +88,7 @@ const Navbar = () => {
 
     }
               }
-              className={`ml-3 flex items-center justify-center rounded-full p-1
+              className={`ml-3 w-6 flex items-center justify-center rounded-full p-1
               ${mode === "light"? "bg-dark text-light": "bg-light text-dark"}
               
               `}

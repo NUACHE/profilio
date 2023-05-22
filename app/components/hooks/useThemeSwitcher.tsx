@@ -27,6 +27,10 @@ const useThemeSwitcher = () => {
                 }
             }
         } 
+        console.log(userPref)
+        handleChange();
+
+
         mediaQuery.addEventListener("change", handleChange);
         
         return () => mediaQuery.removeEventListener("change", handleChange);
