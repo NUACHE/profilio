@@ -6,10 +6,12 @@ import AnimatedText from "../components/AnimatedText";
 import { GithubIcon } from "../components/Icons";
 import Lout from "../components/Lout";
 import project1 from "../../public/images/projects/crypto-screener-cover-image.jpg"
+import TransitionEffect from "../components/TransitionEffect";
 
 const FeaturedProject = ({type, title, summary, img, link, github}:any) => {
     return ( <article className="w-full flex items-center justify-between relative rounded-br-2xl
-    rounded-3xl border border-solid border-dark bg-light shadow-2xl p-12
+    rounded-3xl border border-solid border-dark bg-light shadow-2xl p-12 dark:bg-dark dark:border-light
+    lg:flex-col lg:p-8 xs:rounded-2xl xs:rounded-br-3xl xs:p-4
     ">
            <div className="absolute top-0 -right-3 -z-10 w-[100.5%] h-[102%] rounded-[2.5rem] bg-dark rounded-br-3xl" />
         <Link href={link} target="_blank"
@@ -80,9 +82,10 @@ const Projects = () => {
         <title>MO | Projects Page</title>
         <meta name="description" content="any description" />
     </Head>
+    <TransitionEffect />
     <main className="w-full mb-16 flex flex-col items-center justify-center">
         <Lout  className={"pt-16"}>
-            <AnimatedText text="Imagination Trumps Knowledge!" className={"mb-16"} />
+            <AnimatedText text="Imagination Trumps Knowledge!" className={"mb-16 lg:!text-7xl sm:mb-8 sm:!text-6xl xs:!text-4xl"} />
             <div className="grid grid-cols-12 gap-24 gap-y-32">
                 <div className="col-span-12 ">
                     <FeaturedProject 

@@ -8,11 +8,12 @@ import { LinkArrow } from "./components/Icons";
 import Footer from "./components/Footer";
 import Hireme from "./components/Hireme";
 import Lout from "./components/Lout";
+import TransitionEffect from "./components/TransitionEffect";
 
 export default function Home() {
   return (
     <>
-    
+    <TransitionEffect />
     
      <Lout className="pt-0 md:pt-16 sm:pt-8" >
      <main className="flex items-center text-dark w-full min-h-screen dark:text-light ">

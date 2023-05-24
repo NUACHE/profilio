@@ -1,9 +1,13 @@
+'use client'
+
 import Head from 'next/head'
 import './globals.css'
 import { Montserrat } from 'next/font/google'
 import Footer from './components/Footer'
 import Navbar from './components/Navbar'
 import Script from 'next/script'
+import { AnimatePresence } from 'framer-motion'
+import { usePathname, useRouter } from 'next/navigation'
 
 
 
@@ -21,6 +25,8 @@ export default function RootLayout({
 }: {
   children: React.ReactNode
 }) {
+
+  const router = usePathname();
   return (
     <>
     <Head>
@@ -30,7 +36,10 @@ export default function RootLayout({
     <html lang="en">
       <body className={`${montserrat.variable} font-mont bg-light dark:bg-dark w-full min-h-screen`}>
       <Navbar />
+      <AnimatePresence mode='wait' />
+      <div key={router}>
         {children}
+        </div>
         <Footer />
         <Script id='theme-switcher' strategy='beforeInteractive'>
           {`if (localStorage.theme === 'dark' || (!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {

@@ -5,6 +5,7 @@ import React from "react";
 import AnimatedText from "../components/AnimatedText";
 import Lout from "../components/Lout";
 import article1 from "../../public/images/articles/pagination component in reactjs.jpg"
+import TransitionEffect from "../components/TransitionEffect";
 
 const FeaturedArticle = ({img, title, time, summary, link}:any) => {
     return ( <li>
@@ -30,6 +31,7 @@ const Articles = () => {
                 <title>MO | Articles Page</title>
                 <meta name="description" content="any description" />
             </Head>
+            <TransitionEffect />
             <main className="w-full mb-16 flex flex-col items-center justify-center overflow-hidden">
                 <Lout className="pt-16">
         <AnimatedText text="Words Can Change The World! " className={"mb-16"} />

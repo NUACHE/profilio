@@ -10,6 +10,7 @@ import { useInView, useMotionValue, useSpring } from "framer-motion";
 import Skills from "../components/Skills";
 import Experience from "../components/Experience";
 import Education from "../components/Education";
+import TransitionEffect from "../components/TransitionEffect";
 
 const AnimatedNumbers = ({ value }: any) => {
     const ref = useRef<any>(null);
@@ -45,7 +46,8 @@ const About = () => {
                 <title>MO | About Page</title>
                 <meta name="description" content="any description" />
             </Head>
-            <Lout className="pt-16">
+            <TransitionEffect />
+             <Lout className="pt-16">
             <main className="flex w-full flex-col items-center bg-Light justify-center
             dark:text-light
             ">
