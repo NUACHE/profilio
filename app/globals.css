@@ -25,3 +25,22 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+
+
+
+
+.carousel-content {
+  transition: transform 0.5s ease;
+}
+
+.carousel-image {
+  transition: transform 0.5s ease;
+}
+
+.slide-prev {
+  transform: translateY(100%);
+}
+
+.slide-next {
+  transform: translateX(100%);
+}
