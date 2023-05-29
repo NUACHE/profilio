@@ -82,13 +82,13 @@ const Navbar = () => {
            
             <nav className='flex items-center justify-center flex-wrap'>
               
-                <motion.a href="/" target={"_blank"}  className='w-6 mx-3 bg-light rounded-full dark:bg-dark'
+                <motion.a href="https://github.com/NUACHE" target={"_blank"}  className='w-6 mx-3 bg-light rounded-full dark:bg-dark'
                  whileHover={{y:-2}}
                  whileTap={{scale: 0.9}}
                 >
                     <GithubIcon className={''} />
                 </motion.a>
-                <motion.a href="/" target={"_blank"}  className='w-6 mx-3'
+                <motion.a href="https://www.linkedin.com/in/michael-opoku-98a1221a5/" target={"_blank"}  className='w-6 mx-3'
                  whileHover={{y:-2}}
                  whileTap={{scale: 0.9}}>
                     <LinkedInIcon className={''} />
@@ -130,13 +130,13 @@ const Navbar = () => {
            
             <nav className='flex items-center justify-center flex-wrap mt-2'>
                
-                <motion.a href="/" target={"_blank"}  className='w-6 mx-3 bg-light rounded-full dark:bg-dark sm:mx-1'
+                <motion.a href="https://github.com/NUACHE" target={"_blank"}  className='w-6 mx-3 bg-light rounded-full dark:bg-dark sm:mx-1'
                  whileHover={{y:-2}}
                  whileTap={{scale: 0.9}}
                 >
                     <GithubIcon className={''} />
                 </motion.a>
-                <motion.a href="/" target={"_blank"}  className='w-6 mx-3 sm:mx-1'
+                <motion.a href="https://www.linkedin.com/in/michael-opoku-98a1221a5/" target={"_blank"}  className='w-6 mx-3 sm:mx-1'
                  whileHover={{y:-2}}
                  whileTap={{scale: 0.9}}>
                     <LinkedInIcon className={''} />
@@ -162,9 +162,9 @@ const Navbar = () => {
               </button>
             </nav>
             </motion.div>: null}
-            <div className='absolute left-[50%] top-2 translate-x-[-50%]'>
+            {/* <div className='absolute left-[50%] top-2 translate-x-[-50%]'>
             <Logo />
-            </div>
+            </div> */}
         </header>
     )
 }

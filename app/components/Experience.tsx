@@ -48,7 +48,7 @@ const Experience = () => {
                   position="Frontend Developer" company="Innorik"
                   companyLink="https://www.innorik.com"
               time="2023-Present" address=" Spintex, Accra"
-                work="    Worked on a team responsible for developing new features for ERP sytem, including improving the accuracy and relevance of search results and 
+                work="    Worked on a team responsible for developing new features for Enterprise Resource Planning system, InnoX, and 
                     developing new tools for data analysis and visualization."
                     
                     />
@@ -56,27 +56,25 @@ const Experience = () => {
                   position="Frontend Developer" company="DUXGH"
                   companyLink="https://duxgh.com/"
               time="2022-Present" address="Legon, Accra"
-                work="    Worked on a team responsible for developing new features for Google's 
-                    search engine, including improving the accuracy and relevance of search results and 
-                    developing new tools for data analysis and visualization."
+                work="    Responsible for developing a website that resulted in a substantial growth of our user base, 
+                exceeding a milestone of over 120%."
                     
                     />
                      <Details 
                   position="Frontend Intern" company="AmaliTech"
-                  companyLink="https://uvitechgh.com/"
-              time="2022-Present" address=" Mountain View, CA"
-                work="    Worked on a team responsible for developing new features for Google's 
-                    search engine, including improving the accuracy and relevance of search results and 
-                    developing new tools for data analysis and visualization."
+                  companyLink="https://amalitech.org"
+              time="2022" address=" Takoradi"
+                work="    Worked on diverse projects and tasks, often requiring quick adaptability to new situations. I learned to embrace change and 
+                efficiently manage my time and priorities in a dynamic work environment."
                     
                     />
                     <Details 
                   position="Frontend Developer" company="UvitechGH"
                   companyLink="https://uvitechgh.com/"
-              time="2019" address=" Mountain View, CA"
-                work="    Worked on a team responsible for developing new features for Google's 
-                    search engine, including improving the accuracy and relevance of search results and 
-                    developing new tools for data analysis and visualization."
+              time="2019" address=" Tamale"
+                work="    Maintained, developed and designed the public website, leading to increased user time on the website
+                 and improved customer experience.
+                "
                     
                     />
                    

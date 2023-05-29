@@ -10,8 +10,8 @@ const Skill = ({name, x, y}:any) => {
     initial={{x:0, y:0}}
     whileInView={{x:x, y:y, transition:{duration:1.5},}}
    
-    //use this to animate once
-    // viewport={{once:true}}
+    // use this to animate once
+    viewport={{once:true}}
     
     >
         {name}
@@ -20,7 +20,7 @@ const Skill = ({name, x, y}:any) => {
  
 const Skills = () => {
     return ( <>
-    <h2 className="font-bold text-8xl mt-64 w-full text-center text-dark dark:text-light md:text-6xl md:mt-32 ">Skills</h2>
+    <h2 className="font-bold text-8xl mt-32 w-full text-center text-dark dark:text-light md:text-6xl md:mt-32 ">Skills</h2>
     <div className="w-full h-screen   flex items-center justify-center rounded-full bg-circularLight dark:bg-circularDark
     lg:h-[80vh] sm:h-[60vh] xs:h-[50vh]
     lg:bg-circularLightLg lg:dark:bg-circularDarkLg
@@ -34,12 +34,15 @@ const Skills = () => {
         </motion.div>
        
         <Skill name="HTML" x="20vw" y="2vw"  />
+        <Skill name="GIT" x="0vw" y="-10vw"  />
         <Skill name="Firebase" x="0vw" y="12vw"  />
-        <Skill name="Bootstrap" x="5vw" y="-10vw"  />
+        <Skill name="Redux" x="0vw" y="-22vw"  />
+        <Skill name="Bootstrap" x="5vw" y="23vw"  />
         <Skill name="Javascript" x="-22vw" y="-8vw"  />
+        <Skill name="Typescript" x="25vw" y="-8vw"  />
         <Skill name="ReactJS" x="-24vw" y="13vw"  />
         <Skill name="NextJS" x="20vw" y="-15vw"  />
-        <Skill name="CSS" x="-9vw" y="0vw"  />
+        <Skill name="CSS" x="-11vw" y="0vw"  />
         <Skill name="Tailwind CSS" x="18vw" y="14vw"  />
     </div>
     </> );
