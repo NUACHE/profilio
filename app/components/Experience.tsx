@@ -45,8 +45,25 @@ const Experience = () => {
             <ul className="w-full flex flex-col items-start justify-between ml-4 xs:ml-2">
                 
                     <Details 
-                  position=" Software Engineer" company="Google"
-                  companyLink="www.google.com"
+                  position="Frontend Developer" company="Innorik"
+                  companyLink="https://www.innorik.com"
+              time="2023-Present" address=" Spintex, Accra"
+                work="    Worked on a team responsible for developing new features for ERP sytem, including improving the accuracy and relevance of search results and 
+                    developing new tools for data analysis and visualization."
+                    
+                    />
+                    <Details 
+                  position="Frontend Developer" company="DUXGH"
+                  companyLink="https://duxgh.com/"
+              time="2022-Present" address="Legon, Accra"
+                work="    Worked on a team responsible for developing new features for Google's 
+                    search engine, including improving the accuracy and relevance of search results and 
+                    developing new tools for data analysis and visualization."
+                    
+                    />
+                     <Details 
+                  position="Frontend Intern" company="AmaliTech"
+                  companyLink="https://uvitechgh.com/"
               time="2022-Present" address=" Mountain View, CA"
                 work="    Worked on a team responsible for developing new features for Google's 
                     search engine, including improving the accuracy and relevance of search results and 
@@ -54,37 +71,16 @@ const Experience = () => {
                     
                     />
                     <Details 
-                  position=" Software Engineer" company="Google"
-              time="2022-Present" address=" Mountain View, CA"
+                  position="Frontend Developer" company="UvitechGH"
+                  companyLink="https://uvitechgh.com/"
+              time="2019" address=" Mountain View, CA"
                 work="    Worked on a team responsible for developing new features for Google's 
                     search engine, including improving the accuracy and relevance of search results and 
                     developing new tools for data analysis and visualization."
                     
                     />
-                    <Details 
-                  position=" Software Engineer" company="Google"
-              time="2022-Present" address=" Mountain View, CA"
-                work="    Worked on a team responsible for developing new features for Google's 
-                    search engine, including improving the accuracy and relevance of search results and 
-                    developing new tools for data analysis and visualization."
-                    
-                    />
-                    <Details 
-                  position=" Software Engineer" company="Google"
-              time="2022-Present" address=" Mountain View, CA"
-                work="    Worked on a team responsible for developing new features for Google's 
-                    search engine, including improving the accuracy and relevance of search results and 
-                    developing new tools for data analysis and visualization."
-                    
-                    />
-                    <Details 
-                  position=" Software Engineer" company="Google"
-              time="2022-Present" address=" Mountain View, CA"
-                work="    Worked on a team responsible for developing new features for Google's 
-                    search engine, including improving the accuracy and relevance of search results and 
-                    developing new tools for data analysis and visualization."
-                    
-                    />
+                   
+                  
                   
                 
             </ul>
