@@ -18,6 +18,8 @@ import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a lo
 import Education from "./components/Education";
 import Experience from "./components/Experience";
 import Skills from "./components/Skills";
+import Projects from "./projects/page";
+import Project from "./components/Project";
 
 export default function Home() {
 
@@ -78,6 +80,7 @@ export default function Home() {
         <div id="experience">  
                     <Experience />
                     </div>
+                    <Project/>
                     <div id="education">  
                     <Education />
                     </div>
